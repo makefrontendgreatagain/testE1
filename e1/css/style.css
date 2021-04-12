@@ -1,0 +1,151 @@
+body {
+    width: 1440px;
+    padding: 0;
+    margin: 0 auto;
+
+    text-align: center;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #434242;
+}
+
+/*.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}*/
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+    min-height: 167px;
+    background-color: tranparent;
+}
+
+.header-wrapper {
+    padding-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    align-items: stretch;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo-wrapper {
+    padding-left: 124px;
+}
+
+.navigation {
+    font-size: 14px;
+    /*line-height: 17 px;*/
+    font-weight: 600;
+    padding-left: 77px;
+}
+
+.navigation_item {
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+.number {
+    font-size: 18px;
+    /*line-height: 17 px;*/
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 77px;
+}
+
+.firstScreen-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 879px;
+    background: url(../source/img/bg_image.jpg) 50% no-repeat;
+    z-index: -1;
+}
+
+.lead {
+    width: 935px;
+    padding-top: 215px;
+    text-align: left;
+    margin-left: 211px;
+}
+
+h1 {
+    font-size: 60px;
+    /*line-height: 17px;*/
+    font-weight: 700;
+    color: white;
+
+    width: 935px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+    /*line-height: 17px;*/
+    font-weight: 600;
+}
+
+.button {
+    color: white;
+    background-color: #FF9900;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    /*line-height: 17 px;*/
+    font-weight: 500;
+    border: none;
+    padding: 0;
+}
+
+.button--consultation {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 28px;
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.button--learnMore {
+    display: inline-block;
+    font-size: 18px;
+    width: 253px;
+    margin-top: 42px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+.button--tabs {
+    padding: 10px 27px 13px 27px;
+}
+
+.products {
+    margin-top: 328px;
+}
+
+.tabs {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 1440px;
+  }
